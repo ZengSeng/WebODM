@@ -57,7 +57,7 @@ class Dashboard extends React.Component {
                     className="btn btn-primary btn-sm"
                     onClick={this.handleAddProject}>
               <i className="glyphicon glyphicon-plus"></i>
-              Add Project
+              Add Project Please
             </button>
           </div>
 
