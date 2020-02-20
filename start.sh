@@ -42,7 +42,6 @@ if [ "$1" = "--setup-devenv" ] || [ "$2" = "--setup-devenv" ]; then
     git submodule update --init
     
     echo Setup npm dependencies...
-    npm install --save-dev @babel/core
     npm install --no-bin-links
     cd nodeodm/external/NodeODM
     npm install --no-bin-links
