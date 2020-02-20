@@ -42,9 +42,9 @@ if [ "$1" = "--setup-devenv" ] || [ "$2" = "--setup-devenv" ]; then
     git submodule update --init
     
     echo Setup npm dependencies...
-    npm install
+    npm install --no-bin-links
     cd nodeodm/external/NodeODM
-    npm install
+    npm install --no-bin-links
     cd /webodm
 
     echo Setup pip requirements...
